@@ -1,0 +1,43 @@
+.aside {
+    height: 341px;
+    background: #222224;
+    margin-top: 95px;
+}
+
+.aside__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside__item {
+    text-align: center;
+    padding-top: 103px;
+}
+
+.aside__img {
+    padding-bottom: 28px;
+}
+
+.aside__img-blook {
+    padding-bottom: 19px;
+}
+
+.aside__heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FBFBFB;
+    padding-bottom: 16px;
+}
+
+.aside__text {
+    font-family: Lato;
+    font-style: normal;
+    max-width: 340px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FBFBFB;
+}
