@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.display-block {
+    display: block;
+}
+
+@media (max-width: $desktop-width) {
+    .container {
+        width: 736px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: $mobile-width) {
+    .container {
+        width: 311px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,131 @@
+.basement {
+    overflow: hidden;
+    position: relative;
+}
+
+.basement__background {
+    height: 448px;
+    position: absolute;
+    width: 100%;
+}
+
+.basement__info {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.basement__item {
+    padding-top: 86px;
+    text-align: center;
+}
+
+.basement__text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    width: 360px;
+    font-size: 20px;
+    line-height: 167.2%;
+    color: #222224;
+    padding-top: 40px;
+    
+}
+
+.basement__box {
+    width: 557px;
+    text-align: center;
+    padding-left: 223px;
+}
+
+.basement__heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 150px;
+    font-size: 24px;
+    line-height: 167.2%;
+    color: #222224;
+    text-transform: uppercase;
+}
+
+.basement__text-double {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #222224;
+    padding-bottom: 32px;
+    text-transform: uppercase;
+}
+
+.basement__input {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background: #E1E1E1;
+    border: none;
+    padding: 16px 64px 18px 22px;
+}
+
+.basement__input:focus,
+.basement__input:hover {
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    opacity: 0.5
+}
+
+.basement__button {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #F16D7F;
+    border: none;
+    margin-bottom: 156px;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 12px 16px 14px;
+}
+
+.basement__button:active {
+    background-color: blue;
+    color: yellow;
+}
+
+.socials {
+    background: #222224;
+    min-height: 79px;
+    margin-top: -19px;
+}
+
+.socials__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials__text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    padding-top: 30px;
+}
+
+.socials__all {
+    padding-top: 24px;
+    display: flex;
+}
+
+.socials__box {
+    margin-left: 7px;
+}
+
+.socials__item:hover {
+    opacity: 0.5;
+}
